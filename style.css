@@ -1,0 +1,98 @@
+.nav{
+    display: grid;
+      grid-template-columns: auto auto auto auto;
+      
+    
+
+}
+.three{
+    display: flex;
+    flex: content;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.choose{
+    display: flex;
+    flex: content;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.about{
+    display: flex;
+    flex: content;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.peopleim{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.likes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.checkin{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+    
+    
+
+}
+.team{
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+
+@media only screen and (max-width:600px)
+{body{
+    background-color:white;
+}}
+
+
