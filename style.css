@@ -1,6 +1,7 @@
 .nav{
-    display: grid;
-      grid-template-columns: auto auto auto auto;
+ display: flex;
+ justify-content: space-evenly;
+ font-size: smaller;
       
     
 
@@ -84,6 +85,8 @@
 button{
     background-color: blue;
     color: white;
+    padding: 14px 30px;
+    border-radius: 20px;
 }
 
 
